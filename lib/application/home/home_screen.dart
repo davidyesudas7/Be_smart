@@ -101,7 +101,7 @@ class DeviceSwitchBox extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Image.asset(
-                  'lib/icons/icons8-pendant-light-64.png',
+                  deviceicon,
                   color: switchvalue ? Colors.white : Colors.black,
                   height: 50,
                   width: 50,
@@ -119,7 +119,7 @@ class DeviceSwitchBox extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          'light',
+                          devicename,
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: switchvalue ? Colors.white : Colors.black,
